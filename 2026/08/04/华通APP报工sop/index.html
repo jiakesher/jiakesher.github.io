@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!--Description-->
+
+
+
+    <meta name="description" content="📌 前言本文档旨在帮助生产一线员工快速掌握 华通APP 的报工与自检报废操作流程。无论你是第一次使用，还是想巩固操作细节，这份指南都能帮你高效完成任务。
+
+📋 目录
+前置准备
+登录系统
+物料操作（注塑装配工序需操作）
+生产提报
+场景一：普通报工（不需要扫码）
+场景二：扫码报工（通过便签二维码）
+"/>
+
+
+<!--Author-->
+
+    <meta name="author" content="jiakeshan"/>
+
+
+<!--Open Graph Title-->
+
+    <meta property="og:title" content="华通APP报工操作手册"/>
+
+
+<!--Open Graph Description-->
+
+    <meta property="og:description" content="📌 前言本文档旨在帮助生产一线员工快速掌握 华通APP 的报工与自检报废操作流程。无论你是第一次使用，还是想巩固操作细节，这份指南都能帮你高效完成任务。
+
+📋 目录
+前置准备
+登录系统
+物料操作（注塑装配工序需操作）
+生产提报
+场景一：普通报工（不需要扫码）
+场景二：扫码报工（通过便签二维码）
+"/>
+
+
+<!--Open Graph Site Name-->
+    <meta property="og:site_name" content="DS-Blog"/>
+
+<!--Type page-->
+
+    <meta property="og:type" content="article"/>
+
+
+<!--Page Cover-->
+
+
+    <meta property="og:image" content="http://example.com/img/home-bg.jpg"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+
+
+
+
+    <meta name="twitter:image" content="http://example.com/img/home-bg.jpg"/>
+
+
+<!-- Title -->
+
+<title>华通APP报工操作手册 | DS-Blog</title>
+
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<!-- Custom Fonts -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css" />
+<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css" />
+<link href="//fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Gallery -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/featherlight@1.4.0/src/featherlight.css" integrity="sha256-30DV/STftlyQ6v8yaOWlabammvCYtRJERLj/m0b3zno=" crossorigin="anonymous">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/css/lightgallery.min.css">
+
+<!-- favicon -->
+
+<link rel="icon" href="/img/favicon.png"/>
+
+
+
+    <!-- Google Analytics -->
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+<!-- Head tag -->
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top bg-transparent position-absolute w-100 p-0" id="nav">
+    <div class="container pl-0 pr-0">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <a class="navbar-brand text-white p-1 pl-3" href="/">DS-Blog</a>
+        </div>
+        <div class="navbar-nav float-right">
+            <button class="btn btn-link search-btn navbar-item" data-toggle="modal" data-target="#searchModal">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+                <div class="post-heading text-white">
+                    <h1>华通APP报工操作手册</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Main Content -->
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                
+                    <span class="meta d-inline-block">
+    
+        <i class="far fa-bookmark fa-fw"></i>
+        
+
+<a href="/categories/%E5%B7%A5%E4%BD%9C%E6%8C%87%E5%8D%97/">工作指南</a>
+
+    
+    
+    <!-- Date -->
+    
+        <span class="post-meta-split">&nbsp;|&nbsp;</span>
+        <i class="far fa-calendar-check fa-fw"></i>
+        2026-08-04
+    
+    <!-- word count and read count -->
+    
+
+    
+
+    
+</span>  
+                
+                <h2 id="📌-前言"><a href="#📌-前言" class="headerlink" title="📌 前言"></a>📌 前言</h2><p>本文档旨在帮助生产一线员工快速掌握 <strong>华通APP</strong> 的报工与自检报废操作流程。无论你是第一次使用，还是想巩固操作细节，这份指南都能帮你高效完成任务。</p>
+<hr>
+<h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
+<li><a href="#prepare">前置准备</a></li>
+<li><a href="#login">登录系统</a></li>
+<li><a href="#material">物料操作（注塑装配工序需操作）</a></li>
+<li><a href="#report">生产提报</a><ul>
+<li><a href="#normal">场景一：普通报工（不需要扫码）</a></li>
+<li><a href="#scan">场景二：扫码报工（通过便签二维码）</a></li>
+<li><a href="#modify">生产提报修改操作</a></li>
+</ul>
+</li>
+<li><a href="#scrap">自检报废</a><ul>
+<li><a href="#scrap-steps">自检报废操作步骤</a></li>
+<li><a href="#scrap-cancel">自检报废撤销</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><a id="prepare"></a></p>
+<h2 id="1️⃣-前置准备"><a href="#1️⃣-前置准备" class="headerlink" title="1️⃣ 前置准备"></a>1️⃣ 前置准备</h2><ul>
+<li>在手机上完成 <strong>华通APP</strong> 的安装。</li>
+<li>确保手机网络通畅。</li>
+<li><strong>Wi-Fi</strong>：<code>DS-HT</code>　<strong>密码</strong>：<code>dsjm@123</code></li>
+</ul>
+<hr>
+<p><a id="login"></a></p>
+<h2 id="2️⃣-登录系统"><a href="#2️⃣-登录系统" class="headerlink" title="2️⃣ 登录系统"></a>2️⃣ 登录系统</h2><div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>用户名</strong></td>
+<td align="left">手机号码</td>
+</tr>
+<tr>
+<td align="left"><strong>密码</strong></td>
+<td align="left"><code>123</code>（初始密码，建议首次登录后修改）</td>
+</tr>
+</tbody></table>
+<p><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/login.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/login.png" alt="登录界面示意图"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面示意图</span></div></div></p>
+<hr>
+<p><a id="material"></a></p>
+<h2 id="3️⃣-物料操作（注塑装配工序「套活塞」需要操作）"><a href="#3️⃣-物料操作（注塑装配工序「套活塞」需要操作）" class="headerlink" title="3️⃣ 物料操作（注塑装配工序「套活塞」需要操作）"></a>3️⃣ 物料操作（注塑装配工序「套活塞」需要操作）</h2><blockquote>
+<p>⚠️ <strong>适用条件</strong>：仅当当前工序为 <strong>注塑装配（套活塞）</strong> 时，才需要执行本步骤。</p>
+</blockquote>
+<p>操作流程：</p>
+<ol>
+<li>点击工作台 → 点击 <strong>物料操作</strong>。</li>
+<li>找到当前机台生产的工单，点击 <strong>扫码加料</strong>。</li>
+<li>扫码完成后进入详细页面，将原料标签逐一扫码。</li>
+<li>确认所有标签信息无误后，点击 <strong>提交</strong>。</li>
+</ol>
+<p><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/Edit.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/Edit.png" alt="物料操作步骤1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">物料操作步骤1</span></div></div><br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/ScanAdd.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/ScanAdd.png" alt="物料操作步骤2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">物料操作步骤2</span></div></div><br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/submit.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/submit.png" alt="物料操作步骤3"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">物料操作步骤3</span></div></div></p>
+<hr>
+<p><a id="report"></a></p>
+<h2 id="4️⃣-生产提报"><a href="#4️⃣-生产提报" class="headerlink" title="4️⃣ 生产提报"></a>4️⃣ 生产提报</h2><p>生产提报分为两种场景，请根据实际情况选择对应方式。</p>
+<p><a id="normal"></a></p>
+<h3 id="场景一：普通报工（不需要扫码）"><a href="#场景一：普通报工（不需要扫码）" class="headerlink" title="场景一：普通报工（不需要扫码）"></a>场景一：普通报工（不需要扫码）</h3><ol>
+<li>登录 APP 后，点击底部导航栏的 <strong>工作台</strong>。</li>
+<li>在工作台页面，点击 <strong>生产提报</strong> 按钮。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/workbench.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/workbench.png" alt="工作台入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工作台入口</span></div></div></li>
+<li>进入生产提报页面后，根据图示查找目标工单。</li>
+<li>找到对应工单后，<strong>点击进入工单详情页面</strong>，填写报工信息并提交。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/order-search.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/order-search.png" alt="工单查找与详情"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工单查找与详情</span></div></div></li>
+</ol>
+<hr>
+<p><a id="scan"></a></p>
+<h3 id="场景二：扫码报工（通过便签二维码）"><a href="#场景二：扫码报工（通过便签二维码）" class="headerlink" title="场景二：扫码报工（通过便签二维码）"></a>场景二：扫码报工（通过便签二维码）</h3><blockquote>
+<p><strong>整体流程</strong>：扫码定位工单 → 依次扫入所有报工标签 → 填写班次日期 → 确认提交</p>
+</blockquote>
+<h4 id="步骤详解"><a href="#步骤详解" class="headerlink" title="步骤详解"></a>步骤详解</h4><ol>
+<li><p><strong>第一次扫码定位工单</strong><br>在工作台页面点击 <strong>扫码报工</strong> 图标，对准工单上的便签二维码进行扫描。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scan-order.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scan-order.png" alt="扫码定位工单"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">扫码定位工单</span></div></div></p>
+</li>
+<li><p><strong>进入工单后依次扫码</strong><br>扫描每个待报工的产品标签，系统会自动识别并显示该标签对应的内容。</p>
+</li>
+<li><p><strong>填写报工信息</strong><br>在下方表单中选择 <strong>报工班次</strong> 和 <strong>报工日期</strong>，确认信息无误后，点击 <strong>提交</strong> 按钮。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/submit-report.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/submit-report.png" alt="填写报工信息"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">填写报工信息</span></div></div></p>
+</li>
+</ol>
+<hr>
+<p><a id="modify"></a></p>
+<h3 id="生产提报修改操作"><a href="#生产提报修改操作" class="headerlink" title="生产提报修改操作"></a>生产提报修改操作</h3><blockquote>
+<p><strong>适用说明</strong>：目前仅支持修改 <strong>起模、止模、工时、备注</strong> 四个字段。</p>
+</blockquote>
+<p>操作流程：</p>
+<ol>
+<li>进入 <strong>生产提报记录</strong>。</li>
+<li>选择需要修改的提报记录，点击下方的 <strong>修改</strong> 按钮。</li>
+<li>在修改页面中，填写需要更正的信息。</li>
+<li>确认信息无误后，点击提交。</li>
+</ol>
+<p><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E7%94%9F%E4%BA%A7%E6%8F%90%E6%8A%A5%E4%BF%AE%E6%94%B9.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E7%94%9F%E4%BA%A7%E6%8F%90%E6%8A%A5%E4%BF%AE%E6%94%B9.png" alt="生产提报修改"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产提报修改</span></div></div></p>
+<hr>
+<h3 id="⚠️-其他重要要求"><a href="#⚠️-其他重要要求" class="headerlink" title="⚠️ 其他重要要求"></a>⚠️ 其他重要要求</h3><h4 id="工时填报规则"><a href="#工时填报规则" class="headerlink" title="工时填报规则"></a>工时填报规则</h4><ul>
+<li>同一产品进行多次报工时，<strong>只需在最后一次填报工时</strong>，无需重复填写。</li>
+</ul>
+<h4 id="工单状态限制"><a href="#工单状态限制" class="headerlink" title="工单状态限制"></a>工单状态限制</h4><ul>
+<li>❌ <strong>状态为”下发”时</strong>：无法提报，需联系班组长开启工单。</li>
+<li>❌ <strong>状态为”完成”或”强制结单”时</strong>：<strong>禁止再报工</strong>，请核对工单状态后再操作。</li>
+</ul>
+<hr>
+<p><a id="scrap"></a></p>
+<h2 id="5️⃣-自检报废"><a href="#5️⃣-自检报废" class="headerlink" title="5️⃣ 自检报废"></a>5️⃣ 自检报废</h2><p>当产品出现不良需报废处理时，通过此功能进行登记。</p>
+<p><a id="scrap-steps"></a></p>
+<h3 id="自检报废操作步骤"><a href="#自检报废操作步骤" class="headerlink" title="自检报废操作步骤"></a>自检报废操作步骤</h3><ol>
+<li><p>回到 <strong>工作台</strong>，点击 <strong>自检报废</strong> 图标。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scrap-entry.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scrap-entry.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div></p>
+</li>
+<li><p>进入页面后，可通过以下两种方式定位目标工单：</p>
+<ul>
+<li><strong>方式一（推荐）</strong>：根据 <strong>产品名称</strong> 进行搜索，系统会列出该产品的所有工单。</li>
+<li><strong>方式二</strong>：在搜索结果中，根据 <strong>产品工序描述</strong> 和 <strong>工位</strong> 信息，精准定位对应工单。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scrap-search.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scrap-search.png" alt="产品搜索"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">产品搜索</span></div></div></li>
+</ul>
+</li>
+<li><p>进入自检报废详情页后，按照页面提示填写报废数量、报废原因等信息，确认后提交。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scrap-form.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scrap-form.png" alt="自检报废填写"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废填写</span></div></div></p>
+</li>
+</ol>
+<hr>
+<p><a id="scrap-cancel"></a></p>
+<h3 id="自检报废撤销"><a href="#自检报废撤销" class="headerlink" title="自检报废撤销"></a>自检报废撤销</h3><p>如需撤销已提交的自检报废记录，可按以下步骤操作：</p>
+<p>操作流程：</p>
+<ol>
+<li>进入 <strong>自检报废记录</strong> 列表页面。</li>
+<li>找到需要撤销的报废记录，点击下方的 <strong>撤销</strong> 按钮。</li>
+<li>系统确认后，该条报废记录将被撤销（数据恢复）。</li>
+</ol>
+<p><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E8%87%AA%E6%A3%80%E6%8A%A5%E5%BA%9F%E6%92%A4%E9%94%80.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E8%87%AA%E6%A3%80%E6%8A%A5%E5%BA%9F%E6%92%A4%E9%94%80.png" alt="自检报废撤销"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废撤销</span></div></div></p>
+<hr>
+<h2 id="📌-更新记录"><a href="#📌-更新记录" class="headerlink" title="📌 更新记录"></a>📌 更新记录</h2><div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">版本</th>
+<th align="left">日期</th>
+<th align="left">更新内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">v1.0</td>
+<td align="left">2026-08-04</td>
+<td align="left">初始版本，覆盖生产提报与自检报废全流程</td>
+</tr>
+<tr>
+<td align="left">v1.1</td>
+<td align="left">2026-08-05</td>
+<td align="left">新增“生产提报修改操作”章节，支持修改起模&#x2F;止模&#x2F;工时&#x2F;备注</td>
+</tr>
+<tr>
+<td align="left">v1.2</td>
+<td align="left">2026-08-05</td>
+<td align="left">新增“自检报废撤销”章节，支持撤销已提交的自检报废记录；调整目录结构，优化章节层级</td>
+</tr>
+</tbody></table>
+<hr>
+<blockquote>
+<p>💡 如有疑问或操作异常，请及时联系现场班组长或IT支持人员。</p>
+</blockquote>
+
+            </div>
+
+            <!-- Post information -->
+            
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 post-tags">
+        
+            <i class="fas fa-tag" style="vertical-align: middle;font-size: .8rem;"></i>
+            tags:&nbsp;
+            
+            
+        
+            <a href="/tags/SOP/">#SOP</a>
+        
+    </div>
+
+            
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+        <ul class="pagination d-block text-center">
+            
+                <li class="previous page-item d-inline"><a href="/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/" class="page-link float-left">&larr;  下一页</a></li>
+            
+            
+        </ul>
+    </div>
+
+
+            
+                <!-- Comments -->
+                
+
+                
+
+            
+
+        </div>
+    </div>
+</article> 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+    <style>
+        #toc-content .toc-link::before {
+            background-color: transparent;
+            max-height: 25px;
+        }
+
+        #toc-content .toc-link.is-active-link::before {
+            background-color: #404040;
+        }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <div class="ui-toc dropup scrollspy-body pull-right" style="right: 3%;">
+        <button type="button" class="toc-btn btn btn-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+            <i class="fas fa-list"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right p-2"  aria-labelledby="tocLabel">
+            <div class="toc-widget">
+                <div id="toc-content" class="text-truncate">
+                </div>
+            </div>
+            <div class="toc-menu pt-3 pl-4">
+                <a class="expand-toggle d-block py-1" href="#"><span class="expand-text">全部展开</span><span class="close-text" style="display: none;">全部收起</span></a>
+                <a class="back-to-top d-block py-1" href="#">回到顶部</a>
+                <a class="go-to-bottom d-block py-1" href="#">移至底部</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        tocbot.init({
+            // Where to render the table of contents.
+            tocSelector: '#toc-content',
+            // Where to grab the headings to build the table of contents.
+            contentSelector: 'article',
+            // Which headings to grab inside of the contentSelector element.
+            headingSelector: 'h1, h2, h3',
+            // For headings inside relative or absolute positioned containers within content.
+            hasInnerContainers: true,
+        });
+    </script>
+
+
+    
+
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 text-center">
+                <ul class="list-inline">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <ul class="copyright footer-menu list-inline">
+                    
+                    
+                        <li class="list-inline-item">
+                            
+                            
+                            <a href="/">
+                                
+                                    首页
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/archives">
+                                
+                                    归档
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/tags">
+                                
+                                    标签
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/categories">
+                                
+                                    分类
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/about">
+                                
+                                    关于
+                                
+                            </a>
+                        </li>
+                    
+                </ul>
+                <p class="copyright footer-author">
+                    &copy; -2026 
+                    <a rel="external" class="copyright-link" href="" target="_blank">jiakeshan</a><br/>
+                    Powered by <a rel="external" class="copyright-link" href="https://hexo.io/" target="_blank">Hexo</a>  
+                    <span class="copyright-split">&nbsp;|&nbsp;&nbsp;</span>
+                    Theme <a rel="external" class="copyright-link" href="https://github.com/luswdev/hexo-theme-clean.git" target="_blank">Clean</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    <!-- jQuery -->
+<script src="//cdn.jsdelivr.net/npm/jquery@2.1.4/dist/jquery.min.js"></script>
+
+<!-- For drop down -->
+<script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+<!-- Gallery -->
+<script src="//cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/js/lightgallery-all.min.js"></script>
+<!-- Busuanzi -->
+
+
+<!-- Search script -->
+
+<script src="/js/search.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        searchFunc( '/search.xml' , 'searchInput', 'searchResult');
+    });
+</script>
+
+
+
+<script src="/js/main.js"></script>
+
+
+
+    <!-- Search Modal -->
+    <!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content overflow-auto">
+            <div class="modal-header">
+                <input type="text" class="form-control" placeholder="搜索关键词..." id="searchInput">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div id="searchResult">
+                    <div class="search-empty text-center text-muted p-5">
+                        <i class="far fa-meh"></i>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
