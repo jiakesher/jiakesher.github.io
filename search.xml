@@ -93,7 +93,7 @@
 <h4 id="步骤详解-1"><a href="#步骤详解-1" class="headerlink" title="步骤详解"></a>步骤详解</h4><ol>
 <li><p><strong>第一次扫码定位工单</strong><br>在工作台页面点击 <strong>生产提报</strong> 图标进入生产提报页面，对准打印出来的标签二维码进行扫码。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scan-order.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/scan-order.png" alt="扫码定位工单"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">扫码定位工单</span></div></div></p>
 </li>
-<li><p><strong>进入工单后依次扫码</strong><br>扫描每个产品上的标签，系统会自动识别并显示该标签对应的内容。<br>建议按顺序逐个扫描，扫完一个再扫下一个，注意核对屏幕上显示的已扫描数量与实物是否一致。如遇到无法识别的标签，可尝试手动输入编码。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E4%B8%80%E7%89%A9%E4%B8%80%E7%A0%81%E6%89%AB%E7%A0%81%E5%AE%8C%E6%88%90.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E4%B8%80%E7%89%A9%E4%B8%80%E7%A0%81%E6%89%AB%E7%A0%81%E5%AE%8C%E6%88%90.png" alt="扫码完成"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">扫码完成</span></div></div></p>
+<li><p><strong>进入工单后依次扫码</strong><br>扫描每个产品上的标签，系统会自动识别并显示该标签对应的内容。<br>建议按顺序逐个扫描，扫完一个再扫下一个，注意核对屏幕上显示的已扫描数量与实物是否一致。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E4%B8%80%E7%89%A9%E4%B8%80%E7%A0%81%E6%89%AB%E7%A0%81%E5%AE%8C%E6%88%90.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E4%B8%80%E7%89%A9%E4%B8%80%E7%A0%81%E6%89%AB%E7%A0%81%E5%AE%8C%E6%88%90.png" alt="扫码完成"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">扫码完成</span></div></div></p>
 </li>
 <li><p><strong>填写报工信息</strong><br>当围板箱装满规定数量后，需扫描围板箱二维码以及外箱标签二维码，将箱码与本次报工的产品关联。<br>在下方表单中选择 <strong>报工班次</strong> 和 <strong>报工日期</strong>，确认所有扫码信息（产品唯一码、箱码）无误后，点击 <strong>提交</strong> 按钮完成报工。<br><div class="img-item" data-src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E6%8A%A5%E5%B7%A5%E6%8F%90%E4%BA%A4.png" data-sub-html=".caption"><img src="/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/%E6%8A%A5%E5%B7%A5%E6%8F%90%E4%BA%A4.png" alt="报工提交"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">报工提交</span></div></div></p>
 </li>
@@ -331,6 +331,196 @@
       </tags>
   </entry>
   <entry>
+    <title>老厂、鸿天注塑报工操作手册</title>
+    <url>/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="📌-前言"><a href="#📌-前言" class="headerlink" title="📌 前言"></a>📌 前言</h2><p>本文档专为老厂及鸿天厂区注塑车间的一线员工编写，详细说明从 <strong>标签打印</strong>、<strong>生产提报</strong> 到 <strong>自检报废</strong> 的完整操作流程。请按照步骤逐步操作，如有疑问请及时联系班组长。</p>
+<hr>
+<h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
+<li><a href="#prepare">前置准备</a></li>
+<li><a href="#print">标签打印（电脑端）</a><ul>
+<li><a href="#login">登录一体机</a></li>
+<li><a href="#select-station">选择工位</a></li>
+<li><a href="#print-label">标签模板配置与打印</a></li>
+</ul>
+</li>
+<li><a href="#report">生产提报（APP端）</a><ul>
+<li><a href="#app-login">用户登录</a></li>
+<li><a href="#scan-report">扫码报工流程</a></li>
+<li><a href="#modify-report">生产提报记录修改</a></li>
+</ul>
+</li>
+<li><a href="#scrap">自检报废</a><ul>
+<li><a href="#scrap-submit">自检报废提交</a></li>
+<li><a href="#scrap-cancel">自检报废撤销</a></li>
+</ul>
+</li>
+<li><a href="#changelog">更新记录</a></li>
+</ol>
+<hr>
+<p><a id="prepare"></a></p>
+<h2 id="1️⃣-前置准备"><a href="#1️⃣-前置准备" class="headerlink" title="1️⃣ 前置准备"></a>1️⃣ 前置准备</h2><ul>
+<li>确保已连接厂区 <strong>Wi-Fi</strong>(<strong>老厂WIFI</strong>:DS-PDA <strong>密码</strong>：dsjm@234, <strong>鸿天WIFI</strong>:DS-HT <strong>密码</strong>：dsjm@123)</li>
+<li>准备好个人 <strong>账号</strong>（手机号）。</li>
+<li>注塑机台需配备 <strong>电脑</strong>（老厂每台均有，鸿天仅两台共用）。</li>
+</ul>
+<hr>
+<p><a id="print"></a></p>
+<h2 id="2️⃣-标签打印（电脑端）"><a href="#2️⃣-标签打印（电脑端）" class="headerlink" title="2️⃣ 标签打印（电脑端）"></a>2️⃣ 标签打印（电脑端）</h2><blockquote>
+<p>⚠️ <strong>注意</strong>：标签打印必须在电脑端完成，请使用机台配备的电脑进行操作。</p>
+</blockquote>
+<p><a id="login"></a></p>
+<h3 id="2-1-登录一体机"><a href="#2-1-登录一体机" class="headerlink" title="2.1 登录一体机"></a>2.1 登录一体机</h3><div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>账号</strong></td>
+<td align="left">工号后四位（例如 <code>0796</code>）</td>
+</tr>
+<tr>
+<td align="left"><strong>密码</strong></td>
+<td align="left">（无需密码，直接登录）</td>
+</tr>
+</tbody></table>
+<p><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image1.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image1.png" alt="登录界面"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面</span></div></div></p>
+<hr>
+<p><a id="select-station"></a></p>
+<h3 id="2-2-选择工位"><a href="#2-2-选择工位" class="headerlink" title="2.2 选择工位"></a>2.2 选择工位</h3><ol>
+<li><p>点击主页面中的 <strong>“工位信息”</strong> 按钮（红框标识），进入选工位页面。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image2.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image2.png" alt="工位信息按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工位信息按钮</span></div></div></p>
+</li>
+<li><p>根据当前实际生产的机台，选择对应的工位。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image3.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image3.png" alt="选择工位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">选择工位</span></div></div></p>
+</li>
+</ol>
+<hr>
+<p><a id="print-label"></a></p>
+<h3 id="2-3-标签模板配置与打印"><a href="#2-3-标签模板配置与打印" class="headerlink" title="2.3 标签模板配置与打印"></a>2.3 标签模板配置与打印</h3><ol>
+<li><p>点击主页面下方的 <strong>“标签打印”</strong> 按钮，进入标签打印页面。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image4.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image4.png" alt="标签打印按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印按钮</span></div></div></p>
+</li>
+<li><p><strong>首次打印</strong>该产品时，需要先配置模板：点击“模板配置”，选择正确的模板文件。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image5.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image5.png" alt="模板配置"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置</span></div></div></p>
+</li>
+<li><p>模板选择完成后，输入需要打印的数量，点击打印即可生成标签。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image6.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image6.png" alt="标签打印示例"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印示例</span></div></div></p>
+</li>
+</ol>
+<hr>
+<p><a id="report"></a></p>
+<h2 id="3️⃣-生产提报（APP端）"><a href="#3️⃣-生产提报（APP端）" class="headerlink" title="3️⃣ 生产提报（APP端）"></a>3️⃣ 生产提报（APP端）</h2><p>生产提报需在手机 APP 上完成，请确保已安装并登录。</p>
+<p><a id="app-login"></a></p>
+<h3 id="3-1-用户登录"><a href="#3-1-用户登录" class="headerlink" title="3.1 用户登录"></a>3.1 用户登录</h3><div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>用户名</strong></td>
+<td align="left">手机号码</td>
+</tr>
+<tr>
+<td align="left"><strong>密码</strong></td>
+<td align="left"><code>123</code>（初始密码，建议首次登录后修改）</td>
+</tr>
+</tbody></table>
+<p><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image7.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image7.png" alt="APP登录"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">APP登录</span></div></div></p>
+<hr>
+<p><a id="scan-report"></a></p>
+<h3 id="3-2-扫码报工流程"><a href="#3-2-扫码报工流程" class="headerlink" title="3.2 扫码报工流程"></a>3.2 扫码报工流程</h3><blockquote>
+<p><strong>整体流程</strong>：扫码定位工单 → 依次扫入所有报工标签 → 填写班次日期 → 确认提交</p>
+</blockquote>
+<h4 id="步骤详解"><a href="#步骤详解" class="headerlink" title="步骤详解"></a>步骤详解</h4><ol>
+<li><p>登录 APP 后，点击底部 <strong>“工作台”</strong>，然后选择 <strong>“生产提报”</strong>。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image8.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image8.png" alt="工作台-生产提报"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工作台-生产提报</span></div></div></p>
+</li>
+<li><p><strong>第一次扫码</strong>：扫描打印好的标签二维码，系统自动定位到对应的工单。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image9.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image9.png" alt="定位工单1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">定位工单1</span></div></div></p>
+</li>
+<li><p>点击进入工单详情页面，将需要报工的所有标签依次扫码。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image10.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image10.png" alt="定位工单2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">定位工单2</span></div></div></p>
+</li>
+<li><p>填写 <strong>报工班次</strong> 和 <strong>报工日期</strong>，确认所有信息无误后，点击 <strong>提交</strong>。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image11.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image11.png" alt="定位工单3"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">定位工单3</span></div></div></p>
+</li>
+</ol>
+<h4 id="⚠️-其他重要要求"><a href="#⚠️-其他重要要求" class="headerlink" title="⚠️ 其他重要要求"></a>⚠️ 其他重要要求</h4><ul>
+<li><strong>工时填报</strong>：同一产品多次报工时，<strong>只需在最后一次填报工时</strong>，前面无需重复填写。</li>
+<li><strong>工单状态限制</strong>：<ul>
+<li>❌ <strong>状态为“下发”</strong>：无法提报，需联系班组长开启工单。</li>
+<li>❌ <strong>状态为“完成”或“强制结单”</strong>：<strong>禁止再报工</strong>，请核对工单状态。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><a id="modify-report"></a></p>
+<h3 id="3-3-生产提报记录修改"><a href="#3-3-生产提报记录修改" class="headerlink" title="3.3 生产提报记录修改"></a>3.3 生产提报记录修改</h3><blockquote>
+<p><strong>适用说明</strong>：如需修改已提交的提报记录（仅支持修改部分字段），按以下步骤操作。</p>
+</blockquote>
+<ol>
+<li><p>回到 <strong>工作台</strong>，点击 <strong>“生产提报记录”</strong>。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image12.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image12.png" alt="生产提报记录修改"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产提报记录修改</span></div></div></p>
+</li>
+<li><p>找到需要修改的记录，点击 <strong>修改</strong> 按钮，在允许的字段（如工时、备注等）中更新信息，确认后提交。</p>
+</li>
+</ol>
+<hr>
+<p><a id="scrap"></a></p>
+<h2 id="4️⃣-自检报废"><a href="#4️⃣-自检报废" class="headerlink" title="4️⃣ 自检报废"></a>4️⃣ 自检报废</h2><p>当产品出现不良品需要报废时，通过此功能进行登记。</p>
+<p><a id="scrap-submit"></a></p>
+<h3 id="4-1-自检报废提交"><a href="#4-1-自检报废提交" class="headerlink" title="4.1 自检报废提交"></a>4.1 自检报废提交</h3><ol>
+<li><p>回到 <strong>工作台</strong>，点击 <strong>“自检报废”</strong> 图标。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image13.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image13.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div></p>
+</li>
+<li><p>定位工单有两种方式（任选其一）：</p>
+<ul>
+<li><strong>方式一</strong>：按 <strong>产品名称</strong> 搜索，系统列出该产品所有工单，再根据工序描述和工位定位。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image14.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image14.png" alt="按名称搜索"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">按名称搜索</span></div></div></li>
+<li><strong>方式二（推荐）</strong>：直接扫描打印标签上的二维码，系统自动定位工单。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image15.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image15.png" alt="扫码定位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">扫码定位</span></div></div></li>
+</ul>
+</li>
+<li><p>进入自检报废详情页，填写报废数量、报废原因等信息，确认后提交。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image16.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image16.png" alt="自检报废填写"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废填写</span></div></div></p>
+</li>
+</ol>
+<hr>
+<p><a id="scrap-cancel"></a></p>
+<h3 id="4-2-自检报废记录撤销"><a href="#4-2-自检报废记录撤销" class="headerlink" title="4.2 自检报废记录撤销"></a>4.2 自检报废记录撤销</h3><p>如需撤销已提交的报废记录，操作如下：</p>
+<ol>
+<li>回到 <strong>工作台</strong>，点击 <strong>“自检报废记录”</strong>。</li>
+<li>找到需要撤销的记录，点击下方的 <strong>撤销</strong> 按钮，系统确认后该记录将被撤销（数据恢复）。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image17.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image17.png" alt="自检报废撤销"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废撤销</span></div></div></li>
+</ol>
+<hr>
+<p><a id="changelog"></a></p>
+<h2 id="📌-更新记录"><a href="#📌-更新记录" class="headerlink" title="📌 更新记录"></a>📌 更新记录</h2><div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">版本</th>
+<th align="left">日期</th>
+<th align="left">更新内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">v1.0</td>
+<td align="left">2026-08-08</td>
+<td align="left">初始版本，涵盖标签打印、生产提报、自检报废全流程。</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">（后续根据实际需求补充）</td>
+</tr>
+</tbody></table>
+<hr>
+<blockquote>
+<p>💡 如有操作异常或疑问，请及时联系现场班组长或IT支持人员。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>工作指南</category>
+      </categories>
+      <tags>
+        <tag>SOP</tag>
+        <tag>报工</tag>
+        <tag>注塑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>报工方式判断</title>
     <url>/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/</url>
     <content><![CDATA[<h2 id="报工方式判断说明"><a href="#报工方式判断说明" class="headerlink" title="报工方式判断说明"></a>报工方式判断说明</h2><p>根据生产场地、产品编号、客户等信息，系统会智能匹配以下三种报工方式之一：</p>
@@ -521,196 +711,6 @@
       </categories>
       <tags>
         <tag>SOP、报工</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>老厂、鸿天注塑报工操作手册</title>
-    <url>/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="📌-前言"><a href="#📌-前言" class="headerlink" title="📌 前言"></a>📌 前言</h2><p>本文档专为老厂及鸿天厂区注塑车间的一线员工编写，详细说明从 <strong>标签打印</strong>、<strong>生产提报</strong> 到 <strong>自检报废</strong> 的完整操作流程。请按照步骤逐步操作，如有疑问请及时联系班组长。</p>
-<hr>
-<h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
-<li><a href="#prepare">前置准备</a></li>
-<li><a href="#print">标签打印（电脑端）</a><ul>
-<li><a href="#login">登录一体机</a></li>
-<li><a href="#select-station">选择工位</a></li>
-<li><a href="#print-label">标签模板配置与打印</a></li>
-</ul>
-</li>
-<li><a href="#report">生产提报（APP端）</a><ul>
-<li><a href="#app-login">用户登录</a></li>
-<li><a href="#scan-report">扫码报工流程</a></li>
-<li><a href="#modify-report">生产提报记录修改</a></li>
-</ul>
-</li>
-<li><a href="#scrap">自检报废</a><ul>
-<li><a href="#scrap-submit">自检报废提交</a></li>
-<li><a href="#scrap-cancel">自检报废撤销</a></li>
-</ul>
-</li>
-<li><a href="#changelog">更新记录</a></li>
-</ol>
-<hr>
-<p><a id="prepare"></a></p>
-<h2 id="1️⃣-前置准备"><a href="#1️⃣-前置准备" class="headerlink" title="1️⃣ 前置准备"></a>1️⃣ 前置准备</h2><ul>
-<li>确保已连接厂区 <strong>Wi-Fi</strong>(<strong>老厂WIFI</strong>:DS-PDA <strong>密码</strong>：dsjm@234, <strong>鸿天WIFI</strong>:DS-HT <strong>密码</strong>：dsjm@123)</li>
-<li>准备好个人 <strong>账号</strong>（手机号）。</li>
-<li>注塑机台需配备 <strong>电脑</strong>（老厂每台均有，鸿天仅两台共用）。</li>
-</ul>
-<hr>
-<p><a id="print"></a></p>
-<h2 id="2️⃣-标签打印（电脑端）"><a href="#2️⃣-标签打印（电脑端）" class="headerlink" title="2️⃣ 标签打印（电脑端）"></a>2️⃣ 标签打印（电脑端）</h2><blockquote>
-<p>⚠️ <strong>注意</strong>：标签打印必须在电脑端完成，请使用机台配备的电脑进行操作。</p>
-</blockquote>
-<p><a id="login"></a></p>
-<h3 id="2-1-登录一体机"><a href="#2-1-登录一体机" class="headerlink" title="2.1 登录一体机"></a>2.1 登录一体机</h3><div class="table-responsive">
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>账号</strong></td>
-<td align="left">工号后四位（例如 <code>0796</code>）</td>
-</tr>
-<tr>
-<td align="left"><strong>密码</strong></td>
-<td align="left">（无需密码，直接登录）</td>
-</tr>
-</tbody></table>
-<p><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image1.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image1.png" alt="登录界面"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面</span></div></div></p>
-<hr>
-<p><a id="select-station"></a></p>
-<h3 id="2-2-选择工位"><a href="#2-2-选择工位" class="headerlink" title="2.2 选择工位"></a>2.2 选择工位</h3><ol>
-<li><p>点击主页面中的 <strong>“工位信息”</strong> 按钮（红框标识），进入选工位页面。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image2.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image2.png" alt="工位信息按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工位信息按钮</span></div></div></p>
-</li>
-<li><p>根据当前实际生产的机台，选择对应的工位。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image3.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image3.png" alt="选择工位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">选择工位</span></div></div></p>
-</li>
-</ol>
-<hr>
-<p><a id="print-label"></a></p>
-<h3 id="2-3-标签模板配置与打印"><a href="#2-3-标签模板配置与打印" class="headerlink" title="2.3 标签模板配置与打印"></a>2.3 标签模板配置与打印</h3><ol>
-<li><p>点击主页面下方的 <strong>“标签打印”</strong> 按钮，进入标签打印页面。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image4.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image4.png" alt="标签打印按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印按钮</span></div></div></p>
-</li>
-<li><p><strong>首次打印</strong>该产品时，需要先配置模板：点击“模板配置”，选择正确的模板文件。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image5.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image5.png" alt="模板配置"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置</span></div></div></p>
-</li>
-<li><p>模板选择完成后，输入需要打印的数量，点击打印即可生成标签。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image6.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image6.png" alt="标签打印示例"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印示例</span></div></div></p>
-</li>
-</ol>
-<hr>
-<p><a id="report"></a></p>
-<h2 id="3️⃣-生产提报（APP端）"><a href="#3️⃣-生产提报（APP端）" class="headerlink" title="3️⃣ 生产提报（APP端）"></a>3️⃣ 生产提报（APP端）</h2><p>生产提报需在手机 APP 上完成，请确保已安装并登录。</p>
-<p><a id="app-login"></a></p>
-<h3 id="3-1-用户登录"><a href="#3-1-用户登录" class="headerlink" title="3.1 用户登录"></a>3.1 用户登录</h3><div class="table-responsive">
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>用户名</strong></td>
-<td align="left">手机号码</td>
-</tr>
-<tr>
-<td align="left"><strong>密码</strong></td>
-<td align="left"><code>123</code>（初始密码，建议首次登录后修改）</td>
-</tr>
-</tbody></table>
-<p><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image7.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image7.png" alt="APP登录"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">APP登录</span></div></div></p>
-<hr>
-<p><a id="scan-report"></a></p>
-<h3 id="3-2-扫码报工流程"><a href="#3-2-扫码报工流程" class="headerlink" title="3.2 扫码报工流程"></a>3.2 扫码报工流程</h3><blockquote>
-<p><strong>整体流程</strong>：扫码定位工单 → 依次扫入所有报工标签 → 填写班次日期 → 确认提交</p>
-</blockquote>
-<h4 id="步骤详解"><a href="#步骤详解" class="headerlink" title="步骤详解"></a>步骤详解</h4><ol>
-<li><p>登录 APP 后，点击底部 <strong>“工作台”</strong>，然后选择 <strong>“生产提报”</strong>。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image8.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image8.png" alt="工作台-生产提报"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工作台-生产提报</span></div></div></p>
-</li>
-<li><p><strong>第一次扫码</strong>：扫描打印好的标签二维码，系统自动定位到对应的工单。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image9.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image9.png" alt="定位工单1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">定位工单1</span></div></div></p>
-</li>
-<li><p>点击进入工单详情页面，将需要报工的所有标签依次扫码。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image10.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image10.png" alt="定位工单2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">定位工单2</span></div></div></p>
-</li>
-<li><p>填写 <strong>报工班次</strong> 和 <strong>报工日期</strong>，确认所有信息无误后，点击 <strong>提交</strong>。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image11.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image11.png" alt="定位工单3"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">定位工单3</span></div></div></p>
-</li>
-</ol>
-<h4 id="⚠️-其他重要要求"><a href="#⚠️-其他重要要求" class="headerlink" title="⚠️ 其他重要要求"></a>⚠️ 其他重要要求</h4><ul>
-<li><strong>工时填报</strong>：同一产品多次报工时，<strong>只需在最后一次填报工时</strong>，前面无需重复填写。</li>
-<li><strong>工单状态限制</strong>：<ul>
-<li>❌ <strong>状态为“下发”</strong>：无法提报，需联系班组长开启工单。</li>
-<li>❌ <strong>状态为“完成”或“强制结单”</strong>：<strong>禁止再报工</strong>，请核对工单状态。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<p><a id="modify-report"></a></p>
-<h3 id="3-3-生产提报记录修改"><a href="#3-3-生产提报记录修改" class="headerlink" title="3.3 生产提报记录修改"></a>3.3 生产提报记录修改</h3><blockquote>
-<p><strong>适用说明</strong>：如需修改已提交的提报记录（仅支持修改部分字段），按以下步骤操作。</p>
-</blockquote>
-<ol>
-<li><p>回到 <strong>工作台</strong>，点击 <strong>“生产提报记录”</strong>。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image12.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image12.png" alt="生产提报记录修改"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产提报记录修改</span></div></div></p>
-</li>
-<li><p>找到需要修改的记录，点击 <strong>修改</strong> 按钮，在允许的字段（如工时、备注等）中更新信息，确认后提交。</p>
-</li>
-</ol>
-<hr>
-<p><a id="scrap"></a></p>
-<h2 id="4️⃣-自检报废"><a href="#4️⃣-自检报废" class="headerlink" title="4️⃣ 自检报废"></a>4️⃣ 自检报废</h2><p>当产品出现不良品需要报废时，通过此功能进行登记。</p>
-<p><a id="scrap-submit"></a></p>
-<h3 id="4-1-自检报废提交"><a href="#4-1-自检报废提交" class="headerlink" title="4.1 自检报废提交"></a>4.1 自检报废提交</h3><ol>
-<li><p>回到 <strong>工作台</strong>，点击 <strong>“自检报废”</strong> 图标。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image13.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image13.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div></p>
-</li>
-<li><p>定位工单有两种方式（任选其一）：</p>
-<ul>
-<li><strong>方式一</strong>：按 <strong>产品名称</strong> 搜索，系统列出该产品所有工单，再根据工序描述和工位定位。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image14.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image14.png" alt="按名称搜索"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">按名称搜索</span></div></div></li>
-<li><strong>方式二（推荐）</strong>：直接扫描打印标签上的二维码，系统自动定位工单。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image15.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image15.png" alt="扫码定位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">扫码定位</span></div></div></li>
-</ul>
-</li>
-<li><p>进入自检报废详情页，填写报废数量、报废原因等信息，确认后提交。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image16.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image16.png" alt="自检报废填写"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废填写</span></div></div></p>
-</li>
-</ol>
-<hr>
-<p><a id="scrap-cancel"></a></p>
-<h3 id="4-2-自检报废记录撤销"><a href="#4-2-自检报废记录撤销" class="headerlink" title="4.2 自检报废记录撤销"></a>4.2 自检报废记录撤销</h3><p>如需撤销已提交的报废记录，操作如下：</p>
-<ol>
-<li>回到 <strong>工作台</strong>，点击 <strong>“自检报废记录”</strong>。</li>
-<li>找到需要撤销的记录，点击下方的 <strong>撤销</strong> 按钮，系统确认后该记录将被撤销（数据恢复）。<br><div class="img-item" data-src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image17.png" data-sub-html=".caption"><img src="/2026/08/08/%E9%B8%BF%E5%A4%A9%E3%80%81%E8%80%81%E5%8E%82%E6%8A%A5%E5%B7%A5%E6%95%99%E7%A8%8B/image17.png" alt="自检报废撤销"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废撤销</span></div></div></li>
-</ol>
-<hr>
-<p><a id="changelog"></a></p>
-<h2 id="📌-更新记录"><a href="#📌-更新记录" class="headerlink" title="📌 更新记录"></a>📌 更新记录</h2><div class="table-responsive">
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th align="left">版本</th>
-<th align="left">日期</th>
-<th align="left">更新内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">v1.0</td>
-<td align="left">2026-08-08</td>
-<td align="left">初始版本，涵盖标签打印、生产提报、自检报废全流程。</td>
-</tr>
-<tr>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">（后续根据实际需求补充）</td>
-</tr>
-</tbody></table>
-<hr>
-<blockquote>
-<p>💡 如有操作异常或疑问，请及时联系现场班组长或IT支持人员。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>工作指南</category>
-      </categories>
-      <tags>
-        <tag>SOP</tag>
-        <tag>报工</tag>
-        <tag>注塑</tag>
       </tags>
   </entry>
 </search>
