@@ -1,169 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>报工方式判断</title>
-    <url>/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/</url>
-    <content><![CDATA[<h2 id="报工方式判断说明"><a href="#报工方式判断说明" class="headerlink" title="报工方式判断说明"></a>报工方式判断说明</h2><p>根据生产场地、产品编号、客户等信息，系统会智能匹配以下三种报工方式之一：</p>
-<h3 id="1-普通报工"><a href="#1-普通报工" class="headerlink" title="1. 普通报工"></a>1. 普通报工</h3><ul>
-<li><strong>适用场景</strong>：孔辉产品、产品编号以 <strong>1</strong> 开头的产品、且工序为 <strong>注塑</strong> 时，采用普通报工方式。</li>
-</ul>
-<h3 id="2-扫码报工"><a href="#2-扫码报工" class="headerlink" title="2. 扫码报工"></a>2. 扫码报工</h3><ul>
-<li><strong>适用场景</strong>：老厂、鸿天、华通的产品编号以 <strong>2</strong> 开头的产品，采用扫码报工方式。</li>
-</ul>
-<h3 id="3-一物一码报工"><a href="#3-一物一码报工" class="headerlink" title="3. 一物一码报工"></a>3. 一物一码报工</h3><ul>
-<li><strong>适用场景</strong>：孔辉、丰沃、鼎瑜的产品，工序是清理，采用一物一码报工方式。</li>
-</ul>
-<blockquote>
-<p>实际操作中请根据产品信息和现场条件，选择系统推荐的报工方式，以确保数据准确性和生产效率。</p>
-</blockquote>
-<hr>
-<p><div class="img-item" data-src="/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD.png" data-sub-html=".caption"><img src="/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD.png" alt="报工方式判断流程图"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">报工方式判断流程图</span></div></div></p>
-]]></content>
-      <categories>
-        <category>操作规范</category>
-      </categories>
-      <tags>
-        <tag>报工</tag>
-        <tag>MES</tag>
-        <tag>生产管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>华通一体机报工操作手册</title>
-    <url>/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/</url>
-    <content><![CDATA[<h1 id="华通一体机报工操作手册"><a href="#华通一体机报工操作手册" class="headerlink" title="华通一体机报工操作手册"></a>华通一体机报工操作手册</h1><hr>
-<h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
-<li><a href="#1-%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87">前置准备</a>  </li>
-<li><a href="#2-%E7%99%BB%E5%BD%95">登录</a>  </li>
-<li><a href="#3-%E9%80%89%E6%8B%A9%E5%B7%A5%E4%BD%8D">选择工位</a>  </li>
-<li><a href="#4-%E6%A0%87%E7%AD%BE%E6%89%93%E5%8D%B0">标签打印</a>  </li>
-<li><a href="#5-%E7%94%9F%E4%BA%A7%E6%8A%A5%E5%B7%A5">生产报工</a>  </li>
-<li><a href="#6-%E8%87%AA%E6%A3%80%E6%8A%A5%E5%BA%9F">自检报废</a></li>
-</ol>
-<hr>
-<h2 id="1-前置准备"><a href="#1-前置准备" class="headerlink" title="1. 前置准备"></a>1. 前置准备</h2><ul>
-<li><strong>账号</strong>：由系统管理员进行创建  </li>
-<li><strong>APP 软件</strong>：确保一体机已安装最新版报工应用</li>
-</ul>
-<hr>
-<h2 id="2-登录"><a href="#2-登录" class="headerlink" title="2. 登录"></a>2. 登录</h2><p>一体机登录方式：输入<strong>工号后四位</strong>（例如 <code>0796</code>）  </p>
-<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image1.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image1.png" alt="登录界面"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面</span></div></div><br><em>（输入工号后四位即可进入主界面）</em></p>
-<hr>
-<h2 id="3-选择工位"><a href="#3-选择工位" class="headerlink" title="3. 选择工位"></a>3. 选择工位</h2><ol>
-<li>点击主页面上方红框中的 <strong>“工位信息”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image2.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image2.png" alt="工位信息按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工位信息按钮</span></div></div>  </li>
-<li>根据当前实际生产位置，选择对应的工位。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image3.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image3.png" alt="选择工位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">选择工位</span></div></div></li>
-</ol>
-<blockquote>
-<p>⚠️ <strong>注意</strong>：选错工位会导致报工数据异常，请务必确认。</p>
-</blockquote>
-<hr>
-<h2 id="4-标签打印"><a href="#4-标签打印" class="headerlink" title="4. 标签打印"></a>4. 标签打印</h2><p>标签打印根据产品情况分为两种场景，请按实际条件选择对应操作。</p>
-<h3 id="场景一：没有机边检验的产品"><a href="#场景一：没有机边检验的产品" class="headerlink" title="场景一：没有机边检验的产品"></a>场景一：没有机边检验的产品</h3><blockquote>
-<p>适用于机边检验成品没有人的情况，模板需选择“一物一码注塑流转卡”。</p>
-</blockquote>
-<p>操作步骤：</p>
-<ol>
-<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
-<li><strong>首次打印</strong>该产品时，需配置模板：  <ul>
-<li>点击“模板配置”，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image5.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image5.png" alt="模板配置1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置1</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
-</ul>
-</li>
-<li>配置完成后，即可正常打印标签。</li>
-</ol>
-<hr>
-<h3 id="场景二：产品编号以“2”开头的产品"><a href="#场景二：产品编号以“2”开头的产品" class="headerlink" title="场景二：产品编号以“2”开头的产品"></a>场景二：产品编号以“2”开头的产品</h3><blockquote>
-<p>适用于产品编号以 <strong>2</strong> 开头的情况，模板需选择“注塑装箱单模板”。</p>
-</blockquote>
-<p>操作步骤：</p>
-<ol>
-<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
-<li><strong>首次打印</strong>该产品时，需配置模板：  <ul>
-<li>点击“模板配置”，选择 <strong>注塑装箱单模板</strong>，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" alt="注塑装箱单模板"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">注塑装箱单模板</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
-</ul>
-</li>
-<li>配置完成后，即可正常打印标签。</li>
-</ol>
-<hr>
-<h2 id="5-生产报工"><a href="#5-生产报工" class="headerlink" title="5. 生产报工"></a>5. 生产报工</h2><p>完成工位选择（以及标签打印）后，返回主页面，点击下方的 <strong>“生产报工”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image7.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image7.png" alt="生产报工入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产报工入口</span></div></div></p>
-<h3 id="重要要求"><a href="#重要要求" class="headerlink" title="重要要求"></a>重要要求</h3><ul>
-<li><p><strong>工时填报</strong>：同一产品多次报工时，<strong>仅最后一次</strong>需要填写工时，前几次可不填。  </p>
-</li>
-<li><p><strong>工单状态检查</strong>（必须注意）：  </p>
-<div class="table-responsive">
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th align="left">工单状态</th>
-<th align="left">是否允许报工</th>
-<th align="left">处理方式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>下发</strong></td>
-<td align="left">❌ 不允许</td>
-<td align="left">联系班组长开启工单</td>
-</tr>
-<tr>
-<td align="left"><strong>进行中</strong></td>
-<td align="left">✅ 允许</td>
-<td align="left">正常报工</td>
-</tr>
-<tr>
-<td align="left"><strong>完成 &#x2F; 强制结单</strong></td>
-<td align="left">❌ 禁止</td>
-<td align="left">切勿再报工，否则数据作废</td>
-</tr>
-</tbody></table>
-</li>
-</ul>
-<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image8.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image8.png" alt="工单状态示例"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工单状态示例</span></div></div></p>
-<blockquote>
-<p>⚠️ 若状态为“下发”或“完成&#x2F;强制结单”，请勿强行报工，否则会报错。</p>
-</blockquote>
-<hr>
-<h2 id="6-自检报废"><a href="#6-自检报废" class="headerlink" title="6. 自检报废"></a>6. 自检报废</h2><ol>
-<li>点击主页面左上角的 <strong>返回</strong> 按钮，回到主界面。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image9.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image9.png" alt="返回按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">返回按钮</span></div></div>  </li>
-<li>在主界面点击下方的 <strong>“自检报废”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image10.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image10.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div>  </li>
-<li>按页面图示填写报废数量、原因等信息，确认提交。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image11.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image11.png" alt="自检报废操作"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废操作</span></div></div></li>
-</ol>
-<hr>
-<h2 id="📌-更新记录"><a href="#📌-更新记录" class="headerlink" title="📌 更新记录"></a>📌 更新记录</h2><div class="table-responsive">
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th align="left">版本</th>
-<th align="left">日期</th>
-<th align="left">更新内容</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">v1.0</td>
-<td align="left">2026-08-05</td>
-<td align="left">初始版本，覆盖生产提报与自检报废全流程</td>
-</tr>
-<tr>
-<td align="left">v1.1</td>
-<td align="left">2026-08-05</td>
-<td align="left">调整第4节“标签打印”，拆分为两种场景，优化结构，删除多余标题</td>
-</tr>
-</tbody></table>
-<hr>
-<blockquote>
-<p>💡 <strong>温馨提示</strong>：操作中如遇异常或报错，请立即联系现场班组长或 IT 支持人员，切勿自行盲目操作。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>操作手册</category>
-      </categories>
-      <tags>
-        <tag>报工</tag>
-        <tag>SOP</tag>
-        <tag>注塑</tag>
-        <tag>一体机</tag>
-        <tag>华通</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>华通APP报工操作手册</title>
     <url>/2026/08/04/%E5%8D%8E%E9%80%9AAPP%E6%8A%A5%E5%B7%A5sop/</url>
     <content><![CDATA[<h2 id="📌-前言"><a href="#📌-前言" class="headerlink" title="📌 前言"></a>📌 前言</h2><p>本文档旨在帮助生产一线员工快速掌握 <strong>智塑APP</strong> 的报工与自检报废操作流程。无论你是第一次使用，还是想巩固操作细节，这份指南都能帮你高效完成任务。</p>
@@ -356,6 +193,169 @@
       </categories>
       <tags>
         <tag>SOP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>华通一体机报工操作手册</title>
+    <url>/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/</url>
+    <content><![CDATA[<h1 id="华通一体机报工操作手册"><a href="#华通一体机报工操作手册" class="headerlink" title="华通一体机报工操作手册"></a>华通一体机报工操作手册</h1><hr>
+<h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
+<li><a href="#1-%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87">前置准备</a>  </li>
+<li><a href="#2-%E7%99%BB%E5%BD%95">登录</a>  </li>
+<li><a href="#3-%E9%80%89%E6%8B%A9%E5%B7%A5%E4%BD%8D">选择工位</a>  </li>
+<li><a href="#4-%E6%A0%87%E7%AD%BE%E6%89%93%E5%8D%B0">标签打印</a>  </li>
+<li><a href="#5-%E7%94%9F%E4%BA%A7%E6%8A%A5%E5%B7%A5">生产报工</a>  </li>
+<li><a href="#6-%E8%87%AA%E6%A3%80%E6%8A%A5%E5%BA%9F">自检报废</a></li>
+</ol>
+<hr>
+<h2 id="1-前置准备"><a href="#1-前置准备" class="headerlink" title="1. 前置准备"></a>1. 前置准备</h2><ul>
+<li><strong>账号</strong>：由系统管理员进行创建  </li>
+<li><strong>APP 软件</strong>：确保一体机已安装最新版报工应用</li>
+</ul>
+<hr>
+<h2 id="2-登录"><a href="#2-登录" class="headerlink" title="2. 登录"></a>2. 登录</h2><p>一体机登录方式：输入<strong>工号后四位</strong>（例如 <code>0796</code>）  </p>
+<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image1.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image1.png" alt="登录界面"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面</span></div></div><br><em>（输入工号后四位即可进入主界面）</em></p>
+<hr>
+<h2 id="3-选择工位"><a href="#3-选择工位" class="headerlink" title="3. 选择工位"></a>3. 选择工位</h2><ol>
+<li>点击主页面上方红框中的 <strong>“工位信息”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image2.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image2.png" alt="工位信息按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工位信息按钮</span></div></div>  </li>
+<li>根据当前实际生产位置，选择对应的工位。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image3.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image3.png" alt="选择工位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">选择工位</span></div></div></li>
+</ol>
+<blockquote>
+<p>⚠️ <strong>注意</strong>：选错工位会导致报工数据异常，请务必确认。</p>
+</blockquote>
+<hr>
+<h2 id="4-标签打印"><a href="#4-标签打印" class="headerlink" title="4. 标签打印"></a>4. 标签打印</h2><p>标签打印根据产品情况分为两种场景，请按实际条件选择对应操作。</p>
+<h3 id="场景一：没有机边检验的产品"><a href="#场景一：没有机边检验的产品" class="headerlink" title="场景一：没有机边检验的产品"></a>场景一：没有机边检验的产品</h3><blockquote>
+<p>适用于机边检验成品没有人的情况，模板需选择“一物一码注塑流转卡”。</p>
+</blockquote>
+<p>操作步骤：</p>
+<ol>
+<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
+<li><strong>首次打印</strong>该产品时，需配置模板：  <ul>
+<li>点击“模板配置”，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image5.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image5.png" alt="模板配置1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置1</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
+</ul>
+</li>
+<li>配置完成后，即可正常打印标签。</li>
+</ol>
+<hr>
+<h3 id="场景二：产品编号以“2”开头的产品"><a href="#场景二：产品编号以“2”开头的产品" class="headerlink" title="场景二：产品编号以“2”开头的产品"></a>场景二：产品编号以“2”开头的产品</h3><blockquote>
+<p>适用于产品编号以 <strong>2</strong> 开头的情况，模板需选择“注塑装箱单模板”。</p>
+</blockquote>
+<p>操作步骤：</p>
+<ol>
+<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
+<li><strong>首次打印</strong>该产品时，需配置模板：  <ul>
+<li>点击“模板配置”，选择 <strong>注塑装箱单模板</strong>，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" alt="注塑装箱单模板"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">注塑装箱单模板</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
+</ul>
+</li>
+<li>配置完成后，即可正常打印标签。</li>
+</ol>
+<hr>
+<h2 id="5-生产报工"><a href="#5-生产报工" class="headerlink" title="5. 生产报工"></a>5. 生产报工</h2><p>完成工位选择（以及标签打印）后，返回主页面，点击下方的 <strong>“生产报工”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image7.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image7.png" alt="生产报工入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产报工入口</span></div></div></p>
+<h3 id="重要要求"><a href="#重要要求" class="headerlink" title="重要要求"></a>重要要求</h3><ul>
+<li><p><strong>工时填报</strong>：同一产品多次报工时，<strong>仅最后一次</strong>需要填写工时，前几次可不填。  </p>
+</li>
+<li><p><strong>工单状态检查</strong>（必须注意）：  </p>
+<div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">工单状态</th>
+<th align="left">是否允许报工</th>
+<th align="left">处理方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>下发</strong></td>
+<td align="left">❌ 不允许</td>
+<td align="left">联系班组长开启工单</td>
+</tr>
+<tr>
+<td align="left"><strong>进行中</strong></td>
+<td align="left">✅ 允许</td>
+<td align="left">正常报工</td>
+</tr>
+<tr>
+<td align="left"><strong>完成 &#x2F; 强制结单</strong></td>
+<td align="left">❌ 禁止</td>
+<td align="left">切勿再报工，否则数据作废</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image8.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image8.png" alt="工单状态示例"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工单状态示例</span></div></div></p>
+<blockquote>
+<p>⚠️ 若状态为“下发”或“完成&#x2F;强制结单”，请勿强行报工，否则会报错。</p>
+</blockquote>
+<hr>
+<h2 id="6-自检报废"><a href="#6-自检报废" class="headerlink" title="6. 自检报废"></a>6. 自检报废</h2><ol>
+<li>点击主页面左上角的 <strong>返回</strong> 按钮，回到主界面。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image9.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image9.png" alt="返回按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">返回按钮</span></div></div>  </li>
+<li>在主界面点击下方的 <strong>“自检报废”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image10.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image10.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div>  </li>
+<li>按页面图示填写报废数量、原因等信息，确认提交。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image11.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image11.png" alt="自检报废操作"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废操作</span></div></div></li>
+</ol>
+<hr>
+<h2 id="📌-更新记录"><a href="#📌-更新记录" class="headerlink" title="📌 更新记录"></a>📌 更新记录</h2><div class="table-responsive">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th align="left">版本</th>
+<th align="left">日期</th>
+<th align="left">更新内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">v1.0</td>
+<td align="left">2026-08-05</td>
+<td align="left">初始版本，覆盖生产提报与自检报废全流程</td>
+</tr>
+<tr>
+<td align="left">v1.1</td>
+<td align="left">2026-08-05</td>
+<td align="left">调整第4节“标签打印”，拆分为两种场景，优化结构，删除多余标题</td>
+</tr>
+</tbody></table>
+<hr>
+<blockquote>
+<p>💡 <strong>温馨提示</strong>：操作中如遇异常或报错，请立即联系现场班组长或 IT 支持人员，切勿自行盲目操作。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>操作手册</category>
+      </categories>
+      <tags>
+        <tag>SOP</tag>
+        <tag>报工</tag>
+        <tag>注塑</tag>
+        <tag>一体机</tag>
+        <tag>华通</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>报工方式判断</title>
+    <url>/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/</url>
+    <content><![CDATA[<h2 id="报工方式判断说明"><a href="#报工方式判断说明" class="headerlink" title="报工方式判断说明"></a>报工方式判断说明</h2><p>根据生产场地、产品编号、客户等信息，系统会智能匹配以下三种报工方式之一：</p>
+<h3 id="1-普通报工"><a href="#1-普通报工" class="headerlink" title="1. 普通报工"></a>1. 普通报工</h3><ul>
+<li><strong>适用场景</strong>：孔辉产品、产品编号以 <strong>1</strong> 开头的产品、且工序为 <strong>注塑</strong> 时，采用普通报工方式。</li>
+</ul>
+<h3 id="2-扫码报工"><a href="#2-扫码报工" class="headerlink" title="2. 扫码报工"></a>2. 扫码报工</h3><ul>
+<li><strong>适用场景</strong>：老厂、鸿天、华通的产品编号以 <strong>2</strong> 开头的产品，采用扫码报工方式。</li>
+</ul>
+<h3 id="3-一物一码报工"><a href="#3-一物一码报工" class="headerlink" title="3. 一物一码报工"></a>3. 一物一码报工</h3><ul>
+<li><strong>适用场景</strong>：孔辉、丰沃、鼎瑜的产品，工序是清理，采用一物一码报工方式。</li>
+</ul>
+<blockquote>
+<p>实际操作中请根据产品信息和现场条件，选择系统推荐的报工方式，以确保数据准确性和生产效率。</p>
+</blockquote>
+<hr>
+<p><div class="img-item" data-src="/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD.png" data-sub-html=".caption"><img src="/2026/08/05/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD/%E6%8A%A5%E5%B7%A5%E6%96%B9%E5%BC%8F%E5%88%A4%E6%96%AD.png" alt="报工方式判断流程图"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">报工方式判断流程图</span></div></div></p>
+]]></content>
+      <categories>
+        <category>操作规范</category>
+      </categories>
+      <tags>
+        <tag>报工</tag>
+        <tag>MES</tag>
+        <tag>生产管理</tag>
       </tags>
   </entry>
   <entry>
@@ -708,8 +708,8 @@
         <category>工作指南</category>
       </categories>
       <tags>
-        <tag>报工</tag>
         <tag>SOP</tag>
+        <tag>报工</tag>
         <tag>注塑</tag>
       </tags>
   </entry>
