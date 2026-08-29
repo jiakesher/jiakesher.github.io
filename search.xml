@@ -197,7 +197,7 @@
   </entry>
   <entry>
     <title>华通一体机报工操作手册</title>
-    <url>/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/</url>
+    <url>/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/</url>
     <content><![CDATA[<h2 id="📌-前言"><a href="#📌-前言" class="headerlink" title="📌 前言"></a>📌 前言</h2><p>本文档专为华通厂区注塑车间的一线员工编写，详细说明从 <strong>标签打印</strong>、<strong>生产报工</strong> 到 <strong>自检报废</strong> 的完整操作流程。请按照步骤逐步操作，如有疑问请及时联系班组长。</p>
 <hr>
 <h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
@@ -237,12 +237,12 @@
 <td align="left">无需密码，直接登录</td>
 </tr>
 </tbody></table>
-<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image1.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image1.png" alt="登录界面"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面</span></div></div></p>
+<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image1.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image1.png" alt="登录界面"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">登录界面</span></div></div></p>
 <hr>
 <p><a id="station"></a></p>
 <h2 id="3️⃣-选择工位"><a href="#3️⃣-选择工位" class="headerlink" title="3️⃣ 选择工位"></a>3️⃣ 选择工位</h2><ol>
-<li>点击主页面中红框中的 <strong>“工位信息”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image2.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image2.png" alt="工位信息按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工位信息按钮</span></div></div></li>
-<li>根据当前实际生产位置，选择对应的工位。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image3.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image3.png" alt="选择工位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">选择工位</span></div></div></li>
+<li>点击主页面中红框中的 <strong>“工位信息”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image2.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image2.png" alt="工位信息按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工位信息按钮</span></div></div></li>
+<li>根据当前实际生产位置，选择对应的工位。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image3.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image3.png" alt="选择工位"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">选择工位</span></div></div></li>
 </ol>
 <blockquote>
 <p>⚠️ <strong>注意</strong>：选错工位会导致报工数据异常，请务必确认。</p>
@@ -256,8 +256,8 @@
 </blockquote>
 <p>操作步骤：</p>
 <ol>
-<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
-<li><strong>首次打印</strong>该产品时，需配置模板：点击”模板配置”，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image5.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image5.png" alt="模板配置1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置1</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
+<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
+<li><strong>首次打印</strong>该产品时，需配置模板：点击”模板配置”，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image5.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image5.png" alt="模板配置1"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置1</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
 <li>配置完成后，即可正常打印标签。</li>
 </ol>
 <p><a id="print-2"></a></p>
@@ -266,13 +266,13 @@
 </blockquote>
 <p>操作步骤：</p>
 <ol>
-<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
-<li><strong>首次打印</strong>该产品时，需配置模板：点击”模板配置”，选择 <strong>注塑装箱单模板</strong>，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" alt="注塑装箱单模板"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">注塑装箱单模板</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
+<li>从主页面下方点击 <strong>“标签打印”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image4.png" alt="标签打印入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">标签打印入口</span></div></div></li>
+<li><strong>首次打印</strong>该产品时，需配置模板：点击”模板配置”，选择 <strong>注塑装箱单模板</strong>，按提示设置对应参数。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/%E6%B3%A8%E5%A1%91%E8%A3%85%E7%AE%B1%E5%8D%95%E6%A0%87%E7%AD%BE.png" alt="注塑装箱单模板"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">注塑装箱单模板</span></div></div><br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image6.png" alt="模板配置2"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">模板配置2</span></div></div></li>
 <li>配置完成后，即可正常打印标签。</li>
 </ol>
 <hr>
 <p><a id="report"></a></p>
-<h2 id="5️⃣-生产报工"><a href="#5️⃣-生产报工" class="headerlink" title="5️⃣ 生产报工"></a>5️⃣ 生产报工</h2><p>完成工位选择（以及标签打印）后，返回主页面，点击下方的 <strong>“生产报工”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image7.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image7.png" alt="生产报工入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产报工入口</span></div></div></p>
+<h2 id="5️⃣-生产报工"><a href="#5️⃣-生产报工" class="headerlink" title="5️⃣ 生产报工"></a>5️⃣ 生产报工</h2><p>完成工位选择（以及标签打印）后，返回主页面，点击下方的 <strong>“生产报工”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image7.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image7.png" alt="生产报工入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">生产报工入口</span></div></div></p>
 <h3 id="重要要求"><a href="#重要要求" class="headerlink" title="重要要求"></a>重要要求</h3><div class="table-responsive">
 <table class="table table-bordered table-striped">
 <thead>
@@ -315,16 +315,16 @@
 <td align="left">切勿再报工，否则数据作废</td>
 </tr>
 </tbody></table>
-<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image8.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image8.png" alt="工单状态示例"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工单状态示例</span></div></div></p>
+<p><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image8.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image8.png" alt="工单状态示例"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">工单状态示例</span></div></div></p>
 <blockquote>
 <p>⚠️ 若状态为”下发”或”完成&#x2F;强制结单”，请勿强行报工，否则会报错。</p>
 </blockquote>
 <hr>
 <p><a id="scrap"></a></p>
 <h2 id="6️⃣-自检报废"><a href="#6️⃣-自检报废" class="headerlink" title="6️⃣ 自检报废"></a>6️⃣ 自检报废</h2><ol>
-<li>点击主页面左上角的 <strong>返回</strong> 按钮，回到主界面。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image9.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image9.png" alt="返回按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">返回按钮</span></div></div></li>
-<li>在主界面点击下方的 <strong>“自检报废”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image10.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image10.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div></li>
-<li>按页面图示填写报废数量、原因等信息，确认提交。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image11.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BAsop/image11.png" alt="自检报废操作"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废操作</span></div></div></li>
+<li>点击主页面左上角的 <strong>返回</strong> 按钮，回到主界面。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image9.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image9.png" alt="返回按钮"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">返回按钮</span></div></div></li>
+<li>在主界面点击下方的 <strong>“自检报废”</strong> 按钮。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image10.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image10.png" alt="自检报废入口"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废入口</span></div></div></li>
+<li>按页面图示填写报废数量、原因等信息，确认提交。<br><div class="img-item" data-src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image11.png" data-sub-html=".caption"><img src="/2026/08/05/%E5%8D%8E%E9%80%9A%E6%B3%A8%E5%A1%91%E4%B8%80%E4%BD%93%E6%9C%BASOP/image11.png" alt="自检报废操作"><div class="img-caption d-block text-center"><span class="center-caption text-muted border-bottom">自检报废操作</span></div></div></li>
 </ol>
 <hr>
 <h2 id="📌-更新记录"><a href="#📌-更新记录" class="headerlink" title="📌 更新记录"></a>📌 更新记录</h2><div class="table-responsive">
